@@ -101,11 +101,11 @@
         android:layout_centerInParent="true"/>
 
     <TextView
-        android:id="@+id/txtCarteira"
+        android:id="@+id/txtTatol"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/btnOrder"
-        android:text="You total is $20"
+        android:text="You total is $0"
         android:textStyle="italic"
         android:gravity="center"/>
 
@@ -113,7 +113,7 @@
         android:id="@+id/txtThanks"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/txtCarteira"
+        android:layout_below="@id/txtTatol"
         android:text="Thanks for your preference!"
         android:fontFamily="monospace"
         android:gravity="center"
